@@ -1,19 +1,16 @@
 {
     "nodes": [
-        { "id": "Definition", "level": 1 },
+        { "id": "Direct and Manage Project Work", "level": 1 },
 
-        { "id": "Objectives", "level": 2 },
         { "id": "Inputs", "level": 2 },
-        { "id": "Tools & Techniques", "level": 2 },
+        { "id": "Tools and Techniques", "level": 2 },
         { "id": "Outputs", "level": 2 },
 
-        { "id": "Lead and Perform Project Work", "level": 3 },
-        { "id": "Ensure Deliverables Align", "level": 3 },
-        { "id": "Implement Approved Changes", "level": 3 },
-
         { "id": "Project Management Plan", "level": 3 },
-        { "id": "Change Log", "level": 3 },
-        { "id": "Risk Register", "level": 3 },
+        { "id": "Project Documents", "level": 3 },
+        { "id": "Approved Change Requests", "level": 3 },
+        { "id": "Enterprise Environmental Factors (EEF)", "level": 3 },
+        { "id": "Organizational Process Assets (OPA)", "level": 3 },
 
         { "id": "Expert Judgment", "level": 3 },
         { "id": "PMIS", "level": 3 },
@@ -21,42 +18,66 @@
 
         { "id": "Deliverables", "level": 3 },
         { "id": "Work Performance Data", "level": 3 },
+        { "id": "Issue Log", "level": 3 },
         { "id": "Change Requests", "level": 3 },
+        { "id": "Project Management Plan Updates", "level": 3 },
+        { "id": "Project Documents Updates", "level": 3 },
 
+        { "id": "Change Log", "level": 4 },
+        { "id": "Lessons Learned Register", "level": 4 },
+        { "id": "Risk Register", "level": 4 },
+        { "id": "Milestone List", "level": 4 },
+        { "id": "Requirements Traceability Matrix", "level": 4 },
+
+        { "id": "Corrective Action", "level": 4 },
+        { "id": "Preventive Action", "level": 4 },
+        { "id": "Defect Repair", "level": 4 },
+        { "id": "Updates", "level": 4 },
+
+        { "id": "Progress Tracking", "level": 4 },
         { "id": "Impact Analysis", "level": 4 },
         { "id": "Risk Mitigation", "level": 4 },
-        { "id": "Progress Tracking", "level": 4 },
 
         { "id": "Feedback Loop", "level": 5 }
     ],
     "links": [
-        { "source": "Definition", "target": "Objectives" },
-        { "source": "Definition", "target": "Inputs" },
-        { "source": "Definition", "target": "Tools & Techniques" },
-        { "source": "Definition", "target": "Outputs" },
-
-        { "source": "Objectives", "target": "Lead and Perform Project Work" },
-        { "source": "Objectives", "target": "Ensure Deliverables Align" },
-        { "source": "Objectives", "target": "Implement Approved Changes" },
+        { "source": "Direct and Manage Project Work", "target": "Inputs" },
+        { "source": "Direct and Manage Project Work", "target": "Tools and Techniques" },
+        { "source": "Direct and Manage Project Work", "target": "Outputs" },
 
         { "source": "Inputs", "target": "Project Management Plan" },
-        { "source": "Inputs", "target": "Change Log" },
-        { "source": "Inputs", "target": "Risk Register" },
+        { "source": "Inputs", "target": "Project Documents" },
+        { "source": "Inputs", "target": "Approved Change Requests" },
+        { "source": "Inputs", "target": "Enterprise Environmental Factors (EEF)" },
+        { "source": "Inputs", "target": "Organizational Process Assets (OPA)" },
 
-        { "source": "Tools & Techniques", "target": "Expert Judgment" },
-        { "source": "Tools & Techniques", "target": "PMIS" },
-        { "source": "Tools & Techniques", "target": "Meetings" },
+        { "source": "Project Documents", "target": "Change Log" },
+        { "source": "Project Documents", "target": "Lessons Learned Register" },
+        { "source": "Project Documents", "target": "Risk Register" },
+        { "source": "Project Documents", "target": "Milestone List" },
+        { "source": "Project Documents", "target": "Requirements Traceability Matrix" },
+
+        { "source": "Tools and Techniques", "target": "Expert Judgment" },
+        { "source": "Tools and Techniques", "target": "PMIS" },
+        { "source": "Tools and Techniques", "target": "Meetings" },
 
         { "source": "Outputs", "target": "Deliverables" },
         { "source": "Outputs", "target": "Work Performance Data" },
+        { "source": "Outputs", "target": "Issue Log" },
         { "source": "Outputs", "target": "Change Requests" },
+        { "source": "Outputs", "target": "Project Management Plan Updates" },
+        { "source": "Outputs", "target": "Project Documents Updates" },
 
-        { "source": "Change Requests", "target": "Impact Analysis" },
-        { "source": "Risk Register", "target": "Risk Mitigation" },
+        { "source": "Change Requests", "target": "Corrective Action" },
+        { "source": "Change Requests", "target": "Preventive Action" },
+        { "source": "Change Requests", "target": "Defect Repair" },
+        { "source": "Change Requests", "target": "Updates" },
+
         { "source": "Work Performance Data", "target": "Progress Tracking" },
+        { "source": "Risk Register", "target": "Risk Mitigation" },
 
+        { "source": "Progress Tracking", "target": "Feedback Loop" },
         { "source": "Impact Analysis", "target": "Feedback Loop" },
-        { "source": "Risk Mitigation", "target": "Feedback Loop" },
-        { "source": "Progress Tracking", "target": "Feedback Loop" }
+        { "source": "Risk Mitigation", "target": "Feedback Loop" }
     ]
 }

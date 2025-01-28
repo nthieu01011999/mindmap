@@ -1,11 +1,19 @@
 #!/bin/bash
 
 # Move to the project directory
-
 cd "$(dirname "$0")"
 
 # Define the port number
 PORT=8000
+
+# Check if the port is already in use and kill the process
+if lsof -i :$PORT &> /dev/null; then
+    echo "⚠️ Port $PORT is already in use. Stopping the process..."
+    PID=$(lsof -ti :$PORT)
+    kill -9 $PID
+    echo "✅ Process on port $PORT has been terminated."
+    sleep 2
+fi
 
 # Check if Python3 is installed
 if command -v python3 &> /dev/null
