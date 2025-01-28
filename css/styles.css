@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+}
+
+svg {
+    background: white;
+    border: 1px solid #ddd;
+}
+
+.node {
+    fill: steelblue;
+    stroke: #333;
+    stroke-width: 2px;
+    cursor: pointer;
+}
+
+.node text {
+    fill: white;
+    font-size: 14px;
+    text-anchor: middle;
+    pointer-events: none;
+}
+
+.link {
+    fill: none;
+    stroke: #999;
+    stroke-width: 2px;
+}

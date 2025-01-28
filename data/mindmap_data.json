@@ -1,0 +1,62 @@
+{
+    "nodes": [
+        { "id": "Definition", "level": 1 },
+
+        { "id": "Objectives", "level": 2 },
+        { "id": "Inputs", "level": 2 },
+        { "id": "Tools & Techniques", "level": 2 },
+        { "id": "Outputs", "level": 2 },
+
+        { "id": "Lead and Perform Project Work", "level": 3 },
+        { "id": "Ensure Deliverables Align", "level": 3 },
+        { "id": "Implement Approved Changes", "level": 3 },
+
+        { "id": "Project Management Plan", "level": 3 },
+        { "id": "Change Log", "level": 3 },
+        { "id": "Risk Register", "level": 3 },
+
+        { "id": "Expert Judgment", "level": 3 },
+        { "id": "PMIS", "level": 3 },
+        { "id": "Meetings", "level": 3 },
+
+        { "id": "Deliverables", "level": 3 },
+        { "id": "Work Performance Data", "level": 3 },
+        { "id": "Change Requests", "level": 3 },
+
+        { "id": "Impact Analysis", "level": 4 },
+        { "id": "Risk Mitigation", "level": 4 },
+        { "id": "Progress Tracking", "level": 4 },
+
+        { "id": "Feedback Loop", "level": 5 }
+    ],
+    "links": [
+        { "source": "Definition", "target": "Objectives" },
+        { "source": "Definition", "target": "Inputs" },
+        { "source": "Definition", "target": "Tools & Techniques" },
+        { "source": "Definition", "target": "Outputs" },
+
+        { "source": "Objectives", "target": "Lead and Perform Project Work" },
+        { "source": "Objectives", "target": "Ensure Deliverables Align" },
+        { "source": "Objectives", "target": "Implement Approved Changes" },
+
+        { "source": "Inputs", "target": "Project Management Plan" },
+        { "source": "Inputs", "target": "Change Log" },
+        { "source": "Inputs", "target": "Risk Register" },
+
+        { "source": "Tools & Techniques", "target": "Expert Judgment" },
+        { "source": "Tools & Techniques", "target": "PMIS" },
+        { "source": "Tools & Techniques", "target": "Meetings" },
+
+        { "source": "Outputs", "target": "Deliverables" },
+        { "source": "Outputs", "target": "Work Performance Data" },
+        { "source": "Outputs", "target": "Change Requests" },
+
+        { "source": "Change Requests", "target": "Impact Analysis" },
+        { "source": "Risk Register", "target": "Risk Mitigation" },
+        { "source": "Work Performance Data", "target": "Progress Tracking" },
+
+        { "source": "Impact Analysis", "target": "Feedback Loop" },
+        { "source": "Risk Mitigation", "target": "Feedback Loop" },
+        { "source": "Progress Tracking", "target": "Feedback Loop" }
+    ]
+}
